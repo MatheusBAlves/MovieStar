@@ -1,9 +1,9 @@
 <?php
-include_once("./templates/header.php");
+require_once("./templates/header.php");
 ?>
-<main>
-  <h1>Testando MovieStar</h1>
-</main>
+<div id="main-container" class="container-fluid">
+  <h1>Corpo</h1>
+</div>
 <?php
-include_once("./templates/footer.php");
+require_once("./templates/footer.php");
 ?>
